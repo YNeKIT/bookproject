@@ -1,0 +1,277 @@
+.contentbox {
+  display: flex;
+  justify-content: center;
+}
+
+.left-side {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.top_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: rgba(184, 166, 178, 0.15);
+  width: 410px;
+  height: 230px;
+}
+.title_profile_box {
+  color: #1c1c1c;
+  margin-top: 20px;
+  align-items: center;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.img_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.img_container div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align children to the end (right) */
+}
+.avatar {
+  align-items: left;
+}
+.container_bottom {
+  margin-top: 30px;
+  border-radius: 30px;
+  background: rgba(184, 166, 178, 0.15);
+  width: 410px;
+  padding-top: 10px;
+}
+
+.listaprieteni {
+  list-style: none;
+}
+
+.lista_coloana {
+  display: flex;
+  margin-top: 20px;
+  display: flex;
+  gap: 2rem;
+}
+
+.title_container_bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.poza_prieten {
+  width: 70px;
+  height: 70px;
+}
+
+.btn_adauga_prieteni {
+  transition: 0.4s;
+  cursor: pointer;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #5fa777;
+  width: 100%;
+}
+
+.btn_adauga_prieteni:hover {
+  transition: 0.4s;
+  background-color: #498b5f;
+}
+
+.right_side {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 970px;
+  border-radius: 30px;
+}
+
+.right_left {
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: flex-start;
+  background: rgba(205, 199, 202, 0.15);
+  align-items: center;
+  display: flex;
+  width: 704px;
+  flex-direction: column;
+}
+
+.btn_colectie {
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  background-color: red;
+  margin-left: auto;
+  height: 30px;
+  width: 33px !important;
+  padding: 0px;
+}
+
+.title_right_left {
+  color: #1c1c1c;
+
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.btn_next_colectie {
+  color: white;
+  border: none;
+  background-color: #498b5f;
+  height: 30px !important;
+  width: 40px !important;
+  margin-left: 10px;
+  border-radius: 50px;
+  padding: 0px;
+  font-family: Comfortaa;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card_right_side {
+  cursor: pointer;
+  transition: 0.6s ease;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Set the box shadow */
+}
+
+.card_right_side:hover {
+  transition: 0.6s ease;
+  background-color: rgb(229, 192, 192);
+}
+
+.title_card_colectie {
+  color: #1c1c1c;
+
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.autor_card_colectie {
+  color: #1c1c1c;
+
+  font-family: Comfortaa;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.carte_colectie {
+  margin-left: 30px;
+  width: 80px;
+  height: 90px;
+}
+
+.right_right {
+  gap: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 30px;
+  border-radius: 30px;
+  background: rgba(167, 95, 143, 0.15);
+  width: 404px;
+}
+
+.btn_menu {
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 299px;
+  height: 60px;
+  padding: 10px 19px 10px 30px;
+  align-items: flex-start;
+  border-radius: 35px;
+  background: #5fa777;
+
+  box-shadow: 0px 4px 10px 0px rgba(231, 92, 98, 0.1);
+}
+
+.container_left_right {
+  display: flex;
+}
+
+.right_bottom {
+  color: #1c1c1c;
+  flex-direction: column;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trash {
+  width: 20px;
+  height: 20px;
+}
+
+.nu_sunt_prieteni {
+  margin-left: 60px;
+  align-self: center !important;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.nueste_carte_colectie {
+  margin-left: 140px;
+  align-self: center !important;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card_recenzii_profil {
+  background-color: #5fa777;
+  width: 100%;
+  height: 50px;
+}

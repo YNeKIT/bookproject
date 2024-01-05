@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Inter:wght@500;600;700&display=swap");
+
+.mainCard {
+  width: 300px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.img_coperta {
+  width: 140.885px;
+  height: 211.328px;
+}
+
+.btn_adauga {
+  margin-bottom: 35px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  height: 35px;
+  padding: 10px 30px;
+  align-items: flex-start;
+  border-radius: 35px;
+  background: #5fa777;
+  box-shadow: 4px 4px 20px 0px rgba(13, 39, 107, 0.06);
+}
+.titlu_carte {
+  color: #173f5f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30.931px; /* 193.319% */
+  letter-spacing: 1.329px;
+}
+.autor_carte {
+  width: 250px;
+  margin-top: 0px;
+  color: #8f8f8f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.931px; /* 220.936% */
+  letter-spacing: 1.329px;
+}
+
+.recenzie_btn {
+  border: none;
+  color: #1c1c1c;
+  text-align: center;
+  font-family: "Comfortaa";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 245px;
+  height: 35px;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+  background: rgba(167, 95, 143, 0.5);
+  box-shadow: 4px 4px 20px 0px rgba(13, 39, 107, 0.06);
+}

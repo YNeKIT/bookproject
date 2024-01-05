@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+.mainNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.utilits2 {
+  display: flex;
+  margin-top: 85px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 150px;
+  margin-bottom: 16px;
+  padding: 0px;
+}
+
+.utilits {
+  display: flex;
+  align-items: center;
+  margin-left: 27px;
+}
+.logotext {
+  margin-top: 18px;
+  padding: 0px;
+  margin-bottom: 0px;
+  color: #232536;
+  font-family: Comfortaa;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 88.889% */
+  letter-spacing: -2px;
+}
+
+.contlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  margin-right: 50px;
+}
+
+.inputdes {
+  border-radius: 20px 0 0 20px;
+  width: 517px;
+  height: 45px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin: 0;
+  border-right: none;
+}
+.inputdes:focus,
+.inputdes:hover {
+  border-color: green !important; /* Set the border color to green on focus or hover */
+}
+.btninput {
+  margin-right: -1px;
+  width: 60px;
+  align-items: center;
+  background-color: white;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.inputdes:hover,
+.btninput:hover {
+  background-color: #f0f0f0;
+}
+
+.inputdes:hover,
+.btninput:hover {
+  background-color: #f0f0f0;
+}
+.lupa {
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.conttext {
+  cursor: pointer;
+  margin-right: 48px;
+  color: #5fa777;
+
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+}
+
+.contlogoimg {
+  margin-right: 17px;
+}
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  padding: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #5fa777;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+.menu li {
+  transition: 0.9 ease;
+  cursor: pointer;
+  color: #fff;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.16px;
+  text-transform: capitalize;
+  border-right: 2px solid white;
+  padding-right: 30px;
+}
+
+.menu li:hover {
+  transition: 0.6 ease-out;
+  color: hsl(76, 69%, 75%);
+}
+
+.menu li:last-child {
+  border-right: none;
+}

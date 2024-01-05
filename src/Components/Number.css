@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainNumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.numbers1,
+.numbers2,
+.numbers3,
+.numbers4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 260px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.numbers1 {
+  color: #390c45;
+}
+.numbers2 {
+  color: #0784b0;
+}
+.numbers3 {
+  color: #e7d923;
+}
+.numbers4 {
+  color: #117c2c;
+}
+
+.textnumb {
+  color: #000;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.874px;
+}
+
+.numberstext {
+  width: 420px;
+  height: 66px;
+  margin-left: 60px; /* Add margin to separate from mainNumb */
+}
+.carte {
+  margin: 0px;
+  padding: 0px;
+}
+Link {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainNumb {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.numbers1,
+.numbers2,
+.numbers3,
+.numbers4 {
+  margin-right: 80px !important   ;
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.carte1 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: absolute;
+  max-width: 100%;
+  left: 60px;
+}
+.carte2 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: rotate(-6.907deg);
+  position: absolute;
+  max-width: 100%;
+  left: 280px;
+}
+.carte3 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: rotate(-6.907deg);
+  position: absolute;
+  max-width: 100%;
+  left: 520px;
+}
+.carte4 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: rotate(-6.907deg);
+  position: absolute;
+  max-width: 100%;
+  left: 760px;
+}
+
+.numbers1,
+.numbers2,
+.numbers3 {
+  margin-right: 10px;
+}
+
+.carte1:hover,
+.carte2:hover,
+.carte3:hover,
+.carte4:hover {
+  transform: translateY(-15px);
+}

@@ -1,0 +1,230 @@
+.mainCarte {
+  padding: 0px;
+  margin: 0px;
+}
+
+.secondprincipaldiv {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cartecontainer {
+  width: 1300px;
+  height: 575px;
+  gap: 4.5rem;
+  margin-top: 40px;
+  border-radius: 30px;
+  background: rgba(185, 180, 182, 0.15);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adjust the shadow values as needed */
+}
+
+.descriere {
+  width: 831px;
+}
+
+.img_raiting {
+  margin-top: 50px;
+}
+
+.right_side {
+  margin-top: 50px;
+}
+
+.titlu-carte {
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.autor-carte {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.descriere-titlu {
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.raiting_carte {
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.descriere {
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn_adauga_carte {
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+  margin-top: 40px;
+  margin-left: 250px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  display: flex;
+  width: 320px;
+  height: 35px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  background: #5fa777;
+  box-shadow: 4px 4px 20px 0px rgba(13, 39, 107, 0.06);
+  color: #fff;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn_adauga_carte:hover {
+  transition: 0.6s ease-in-out;
+  background: #4b855e;
+}
+
+.delimitare {
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recenzii-block {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titlu_recenzii {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titlu_block_recenzii {
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn_recenzii {
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  display: flex;
+  width: 292px;
+  height: 35px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  background: #5fa777;
+  box-shadow: 4px 4px 20px 0px rgba(13, 39, 107, 0.06);
+}
+.btn_recenzii:hover {
+  transition: 0.6s ease-in-out;
+  background: #376747;
+}
+.recenzii_card {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 898px;
+  background-color: #f7f6f6;
+  border-radius: 20px;
+}
+.title_starts {
+  margin-bottom: 0px;
+  margin-left: 43px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.title_recenzii_card {
+  margin-right: 25px;
+  margin-left: 43px;
+  margin-bottom: 9px;
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.autor_recenzii_card {
+  margin-bottom: 9px;
+  margin-top: 0px;
+  margin-left: 43px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_recenzii_card {
+  margin-top: 0px;
+  margin-left: 43px;
+  color: #1c1c1c;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.footer {
+  margin-top: 40px;
+  height: 100px;
+  width: 100%;
+  background: #5fa777;
+}
+
+.star {
+  cursor: pointer;
+}
+.stele {
+  margin-right: 30px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.img_cartepage {
+  width: 286px;
+  height: 381px;
+}

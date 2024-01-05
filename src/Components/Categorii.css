@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+.MainCategorii {
+  font-family: Comfortaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btncontainer {
+  width: 1271px;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btncategorii {
+  cursor: pointer;
+  margin-top: 40px;
+  color: #1c1c1c;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 60px;
+  padding: 10px 30px;
+  border: 1px solid rgb(224, 223, 223);
+  border-radius: 35px;
+  background: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(4, 4, 4, 0.06);
+
+  transition: 0.5s;
+}
+
+.btncategorii:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #f3efef;
+  background: #5fa777;
+}
+
+.btncategorii_verde {
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 40px;
+  color: #f3f3f3;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 60px;
+  padding: 10px 30px;
+  border: 1px solid rgb(224, 223, 223);
+  border-radius: 35px;
+  background: #5fa777;
+  box-shadow: 4px 4px 20px 0px rgba(4, 4, 4, 0.06);
+}
+.btncategorii_verde:hover {
+  transition: 0.5s ease-in-out;
+  background: #226338;
+}
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 40px;
+  background-color: #5fa777;
+}
+
+.img_btns {
+  margin-right: 7px;
+}
+
+.sageata {
+  transition: transform 0.3s ease;
+}
+
+.btncategorii_verde:hover .sageata {
+  transform: translateX(5px); /* Move the image 5 pixels to the right */
+}
